@@ -7,6 +7,8 @@ Ten-Nen Demon is a level-based puzzle game. Before or/and after level will play 
 
 More [Information]( http://sam-chu.com/projects/TenNenDemon.html )
 
+[Youtube]( https://youtu.be/q3FwEFWJ6vw )
+
 ## Controls
 WASD for the character movement.
 
@@ -15,3 +17,11 @@ Arrow keys for the spraying fire ball.
 SPACE for the cutscene.
 
 R key for restarting current level.
+
+## Preview
+
+![demo_img1](/img/screenshot1.PNG)
+![demo_img2](/img/screenshot2.PNG)
+
+![demo_img3](/img/screenshot3.PNG)
+![demo_img4](/img/screenshot4.PNG)
