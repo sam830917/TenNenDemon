@@ -1,0 +1,10 @@
+<CutsceneDefinition>
+
+	<Lines background="Data/Images/Cutscenes/dialogueBG_hell.png">
+		<Line line="(Fly away.)" characterName="Shark" characterImage="Data/Images/Cutscenes/shark_01.png"/>
+		<Line line="Stop fly away from me!" characterName="TestName" characterImage="Data/Images/Cutscenes/charactor_03.png"/>
+	</Lines>
+
+</CutsceneDefinition>
+
+

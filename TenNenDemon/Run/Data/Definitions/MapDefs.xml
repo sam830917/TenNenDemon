@@ -1,0 +1,94 @@
+<MapDefinitions>
+
+	<Legend>
+		<Empty glyph="."/>
+		<Entity glyph="U" name="UnbreakableRock"/>
+		<Entity glyph="O" name="BreakableRock"/>
+		<Entity glyph="L" name="Lava"/>
+	</Legend>
+
+	<MapDefinition name="First Trial" level="I" dimensions="8,7" mapStartPoint="-4, -3.8" backgroundImage="TestMap_bg">
+		<MapSetUp>
+			<PlayerStart pos="0,1"/>
+			<PetStart pos="7,6"/>
+			<AbilityLimitNumber number="1"/>
+			<NextLevel name="Good place"/>
+		</MapSetUp>
+		<Cutscenes>
+			<BeforeLevel name="Start"/>
+			<AfterLevel name="Level1_End"/>
+		</Cutscenes>
+		<MapRows>
+			<MapRow tiles="....O.L."/>
+			<MapRow tiles=".UUUUUUU"/>
+			<MapRow tiles=".UUUUUUU"/>
+			<MapRow tiles=".UUUUUUU"/>
+			<MapRow tiles=".UUUUUUU"/>
+			<MapRow tiles=".UUUUUUU"/>
+			<MapRow tiles="UUUUUUUU"/>
+		</MapRows>
+	</MapDefinition>
+
+	<MapDefinition name="Good place" level="II" dimensions="8,7" mapStartPoint="-4, -3.8" backgroundImage="TestMap_bg">
+		<MapSetUp>
+			<PlayerStart pos="0,5"/>
+			<PetStart pos="7,3"/>
+			<AbilityLimitNumber number="2"/>
+			<NextLevel name="Maybe in the park"/>
+		</MapSetUp>
+		<Cutscenes>
+			<AfterLevel name="Level2_End"/>
+		</Cutscenes>
+		<MapRows>
+			<MapRow tiles="......O."/>
+			<MapRow tiles="...O.LLL"/>
+			<MapRow tiles="...UULUU"/>
+			<MapRow tiles="...L.L.."/>
+			<MapRow tiles="..LLOL.."/>
+			<MapRow tiles="..UULLLL"/>
+			<MapRow tiles="........"/>
+		</MapRows>
+	</MapDefinition>
+
+	<MapDefinition name="Maybe in the park" level="III" dimensions="8,7" mapStartPoint="-4, -3.8" backgroundImage="TestMap_bg">
+		<MapSetUp>
+			<PlayerStart pos="0,5"/>
+			<PetStart pos="7,6"/>
+			<AbilityLimitNumber number="2"/>
+			<NextLevel name="Where the hell is?"/>
+		</MapSetUp>
+		<Cutscenes>
+			<AfterLevel name="Level3_End"/>
+		</Cutscenes>
+		<MapRows>
+			<MapRow tiles="UU..UUL."/>
+			<MapRow tiles="...O.LLL"/>
+			<MapRow tiles="....OLLL"/>
+			<MapRow tiles="........"/>
+			<MapRow tiles="...UU..."/>
+			<MapRow tiles="...UU..."/>
+			<MapRow tiles="...UUUUU"/>
+		</MapRows>
+	</MapDefinition>
+
+	<MapDefinition name="Where the hell is?" level="VI" dimensions="8,7" mapStartPoint="-4, -3.8" backgroundImage="TestMap_bg">
+		<MapSetUp>
+			<PlayerStart pos="2,2"/>
+			<PetStart pos="7,6"/>
+			<AbilityLimitNumber number="5"/>
+		</MapSetUp>
+		<Cutscenes>
+			<AfterLevel name="Level4_End"/>
+		</Cutscenes>
+		<MapRows>
+			<MapRow tiles="UUU.UL.."/>
+			<MapRow tiles="LLU.OLLL"/>
+			<MapRow tiles="UUU.OLLL"/>
+			<MapRow tiles="O...OL.."/>
+			<MapRow tiles="...OLO.L"/>
+			<MapRow tiles="....UUUO"/>
+			<MapRow tiles="........"/>
+		</MapRows>
+	</MapDefinition>
+
+</MapDefinitions>

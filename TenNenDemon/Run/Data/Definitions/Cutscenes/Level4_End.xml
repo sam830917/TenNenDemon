@@ -1,0 +1,15 @@
+<CutsceneDefinition>
+
+	<Lines background="Data/Images/Cutscenes/dialogueBG_hell.png">
+		<Line line="I finially got you, Shark!" characterName="BokeJya Nai" characterImage="Data/Images/Cutscenes/charactor_05.png"/>
+		<Line line="I wouldn't let you go again." characterName="BokeJya Nai" characterImage="Data/Images/Cutscenes/charactor_05.png"/>
+		<Line line="(...)" characterName="BokeJya Nai" characterImage="Data/Images/Cutscenes/charactor_06.png"/>
+	</Lines>
+	
+	<Lines background="Data/Images/Cutscenes/dialogueBG_hell.png">
+		<Line line="End"/>
+	</Lines>
+
+</CutsceneDefinition>
+
+

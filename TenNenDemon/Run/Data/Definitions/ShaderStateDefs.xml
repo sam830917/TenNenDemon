@@ -1,0 +1,44 @@
+<!--
+----------------Options------------------
+-BlendMode
+	-Alpha
+	-Additive
+	-Opaque
+-Depth
+	-Always
+	-Equal
+	-Greater
+	-GreaterEqual
+	-Less
+	-LessEqual
+	-NotEqual
+	-Never
+-Winding
+	-CounterClockwise
+	-Clockwise
+-CullMode
+	-Back
+	-Front
+	-None
+-FillMode
+	-Solid
+	-Wireframe
+-----------------------------------------
+-->
+<ShaderStateDefinitions>
+
+	<ShaderStateDefinition name="Default">
+		<Shader 	path="Data/Shaders/Default.hlsl"/>
+		<BlendMode 	mode="Alpha"/>
+		<Depth 		compare="LessEqual"/>
+		<DepthWrite isWriteDepth="true"/>
+		<Winding 	winding="CounterClockwise"/>
+		<CullMode 	mode="Back"/>
+		<FillMode 	mode="Solid"/>
+	</ShaderStateDefinition>
+
+	<ShaderStateDefinition name="WorldOpaque">
+		<Shader path="Data/Shaders/WorldOpaque.hlsl"/>
+	</ShaderStateDefinition>
+
+</ShaderStateDefinitions>

@@ -1,0 +1,8 @@
+<CutsceneDefinition>
+
+	<Lines background="Data/Images/Cutscenes/dialogueBG_hell.png">
+		<Line line="(Fly away.)" characterName="Shark" characterImage="Data/Images/Cutscenes/shark_01.png"/>
+		<Line line="Wait!" characterName="BokeJya Nai" characterImage="Data/Images/Cutscenes/charactor_02.png"/>
+	</Lines>
+
+</CutsceneDefinition>

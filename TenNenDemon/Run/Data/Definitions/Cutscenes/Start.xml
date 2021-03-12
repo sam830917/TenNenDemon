@@ -1,0 +1,17 @@
+<CutsceneDefinition>
+
+	<Lines background="Data/Images/Cutscenes/dialogueBG_home.png">
+		<Line line="How a good day for the breakfast." characterName="BokeJya Nai" characterImage="Data/Images/Cutscenes/charactor_01.png"/>
+		<Line line="(Just fly away.)" characterName="Shark" characterImage="Data/Images/Cutscenes/shark_01.png"/>
+	</Lines>
+	
+	<Lines background="Data/Images/Cutscenes/dialogueBG_hell.png">
+		<Line line="(Just fly away.)" characterName="Shark" characterImage="Data/Images/Cutscenes/shark_01.png"/>
+	</Lines>
+	
+	<Lines background="Data/Images/Cutscenes/dialogueBG_home.png">
+		<Line line="Wait! Where are you going, Shark?" characterName="BokeJya Nai" characterImage="Data/Images/Cutscenes/charactor_02.png"/>
+		<Line line="Come back! Shark! Don't go outside by yourself!" characterName="BokeJya Nai" characterImage="Data/Images/Cutscenes/charactor_02.png"/>
+	</Lines>
+
+</CutsceneDefinition>

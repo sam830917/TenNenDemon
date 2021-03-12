@@ -1,0 +1,10 @@
+<CutsceneDefinition>
+
+	<Lines background="Data/Images/Cutscenes/dialogueBG_hell.png">
+		<Line line="(Fly away.)" characterName="Shark" characterImage="Data/Images/Cutscenes/shark_01.png"/>
+		<Line line="Please come home with me. Shark!" characterName="BokeJya Nai" characterImage="Data/Images/Cutscenes/charactor_04.png"/>
+	</Lines>
+
+</CutsceneDefinition>
+
+

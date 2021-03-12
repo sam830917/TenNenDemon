@@ -1,0 +1,51 @@
+<ActorDefinitions>
+
+	<ActorDefinition name="Player">
+		<Size physicsRadius="0.15" localDrawBounds="-0.5,-0.4,0.5,0.6"/>
+		<SpriteAnimSet spriteSheet="Main_character_6x2.png" spriteLayout="6,2" fps="10">
+			<SpriteAnim name="Idle"		spriteIndexes="0,1,2,3,4,5,6,7,8,9,10,11"/>
+		</SpriteAnimSet>
+	</ActorDefinition>
+
+	<ActorDefinition name="BreakableRock">
+		<Size physicsRadius="0.15" localDrawBounds="-0.4,-0.3,0.4,0.5"/>
+		<SpriteAnimSet spriteSheet="Rock.png" spriteLayout="1,1" fps="3">
+			<SpriteAnim name="Idle"		spriteIndexes="0"/>
+		</SpriteAnimSet>
+	</ActorDefinition>
+
+	<ActorDefinition name="UnbreakableRock">
+		<Size physicsRadius="0.15" localDrawBounds="-0.4,-0.3,0.4,0.5"/>
+		<SpriteAnimSet spriteSheet="FLAMEbase0001.png" spriteLayout="1,1" fps="3">
+			<SpriteAnim name="Idle"		spriteIndexes="0"/>
+		</SpriteAnimSet>
+	</ActorDefinition>
+
+	<ActorDefinition name="Lava">
+		<Size physicsRadius="0.15" localDrawBounds="-0.5,-0.5,0.5,0.5"/>
+		<SpriteAnimSet spriteSheet="Terrain_9x6.png" spriteLayout="9,6" fps="3">
+			<SpriteAnim name="Normal"	spriteIndexes="3"/>
+			<SpriteAnim name="Filled"	spriteIndexes="12"/>
+		</SpriteAnimSet>
+	</ActorDefinition>
+
+	<ActorDefinition name="Pet">
+		<Size physicsRadius="0.15" localDrawBounds="-0.5,-0.5,0.5,0.5"/>
+		<SpriteAnimSet spriteSheet="shark_5x1.png" spriteLayout="5,1" fps="5">
+			<SpriteAnim name="Idle"	spriteIndexes="0,1,2,3,4,3,2,1"/>
+		</SpriteAnimSet>
+	</ActorDefinition>
+
+	<ActorDefinition name="FireBall">
+		<Size physicsRadius="0.15" localDrawBounds="-0.4,-0.3,0.4,0.5"/>
+		<SpriteAnimSet spriteSheet="Fireball_4x1.png" spriteLayout="4,1" fps="3">
+			<SpriteAnim name="East"		spriteIndexes="0"/>
+			<SpriteAnim name="South"	spriteIndexes="1"/>
+			<SpriteAnim name="North"	spriteIndexes="2"/>
+			<SpriteAnim name="West"		spriteIndexes="3"/>
+		</SpriteAnimSet>
+	</ActorDefinition>
+	
+</ActorDefinitions>
+
+

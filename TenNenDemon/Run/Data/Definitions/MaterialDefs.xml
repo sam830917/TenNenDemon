@@ -1,0 +1,10 @@
+<MaterialDefinitions>
+
+	<MaterialDefinition name="DisplayBox">
+		<ShaderState name="WorldOpaque"/>
+		<Textures>
+			<Diffuse path="Data/Images/Test_StbiFlippedAndOpenGL.png"/>
+		</Textures>
+	</MaterialDefinition>
+	
+</MaterialDefinitions>
